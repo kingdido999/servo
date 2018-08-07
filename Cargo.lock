@@ -3244,7 +3244,7 @@ source = "git+https://github.com/servo/media#7a5c334698aa1e8a9cf95c5bd761e4a3148
 [[package]]
 name = "servo-skia"
 version = "0.30000019.0"
-source = "git+https://github.com/asajeffrey/skia.git?branch=clang-build#64829b7806ec8d04343808137fbb9123532d914c"
+source = "git+https://github.com/asajeffrey/skia.git?branch=clang-build#7cbc2ef2839bd1416e0aae623af2888022925f99"
 dependencies = [
  "cgl 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "cmake 0.1.29 (registry+https://github.com/rust-lang/crates.io-index)",
