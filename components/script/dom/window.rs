@@ -63,6 +63,8 @@ use ipc_channel::router::ROUTER;
 use js::jsapi::JSAutoCompartment;
 use js::jsapi::JSContext;
 use js::jsapi::JS_GC;
+use js::jsapi::JSPROP_ENUMERATE;
+use js::jsval::JSVal;
 use js::jsval::UndefinedValue;
 use js::rust::HandleValue;
 use js::rust::wrappers::JS_DefineProperty;
@@ -596,9 +598,7 @@ impl WindowMethods for Window {
                                   obj,
                                   "opener\0".as_ptr() as *const libc::c_char,
                                   value,
-                                  JSPROP_ENUMERATE,
-                                  None,
-                                  None));
+                                  JSPROP_ENUMERATE as u32));
     }
 
     // https://html.spec.whatwg.org/multipage/#dom-window-closed
