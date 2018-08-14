@@ -212,7 +212,7 @@ android-nightly:
   - ./etc/ci/clean_build_artifacts.sh
 
 arm32:
- env:
+ # env:
   # AR: /usr/bin/arm-linux-gnueabihf-ar
   # AS: /usr/bin/arm-linux-gnueabihf-as
   # CC: /usr/bin/clang-4.0
