@@ -223,10 +223,11 @@ arm32:
   CXX: /usr/bin/clang++-4.0
   CXX_arm-unknown-linux-gnueabihf: /usr/bin/clang++-4.0
   CXXFLAGS: --target=arm-unknown-linux-gnueabihf -march=armv7a -I/usr/arm-linux-gnueabihf/include/ -I/usr/arm-linux-gnueabihf/include/c++/4.8.4/arm-linux-gnueabihf -fuse-ld=/home/servo/servo/support/arm32/fake-ld.sh -Wno-error=unused-command-line-argument
+  HOST_CC: gcc-5
+  HOST_CXX: g++-5
   LD: /usr/bin/arm-linux-gnueabihf-ld
   OBJCOPY: /usr/bin/arm-linux-gnueabihf-objcopy
   OBJDUMP: /usr/bin/arm-linux-gnueabihf-objdump
-  # PKG_CONFIG_ALLOW_CROSS: 1
   RANLIB: /usr/bin/arm-linux-gnueabihf-ranlib
   STRIP: /usr/bin/arm-linux-gnueabihf-strip
  commands:
