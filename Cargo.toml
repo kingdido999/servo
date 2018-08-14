@@ -18,8 +18,6 @@ opt-level = 3
 # lto = false
 
 [patch.crates-io]
-
-mozjs_sys = { git = "https://github.com/asajeffrey/mozjs.git", branch = "smup" }
 mozjs = { git = "https://github.com/asajeffrey/rust-mozjs.git", branch = "smup" }
 mozangle = { git = "https://github.com/asajeffrey/mozangle.git", branch = "smup" }
 # If you need to temporarily test Servo with a local fork of some upstream

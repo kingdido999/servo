@@ -2184,14 +2184,14 @@ dependencies = [
  "lazy_static 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.2.42 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "mozjs_sys 0.60.0 (git+https://github.com/asajeffrey/mozjs.git?branch=smup)",
+ "mozjs_sys 0.60.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "num-traits 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "mozjs_sys"
 version = "0.60.0"
-source = "git+https://github.com/asajeffrey/mozjs.git?branch=smup#41b146211bb510b999bbd4e17fe4f48a136228c6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "bindgen 0.37.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "cc 1.0.18 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -4405,7 +4405,7 @@ dependencies = [
 "checksum mitochondria 1.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "9de3eca27871df31c33b807f834b94ef7d000956f57aa25c5aed9c5f0aae8f6f"
 "checksum mozangle 0.1.7 (git+https://github.com/asajeffrey/mozangle.git?branch=smup)" = "<none>"
 "checksum mozjs 0.8.0 (git+https://github.com/asajeffrey/rust-mozjs.git?branch=smup)" = "<none>"
-"checksum mozjs_sys 0.60.0 (git+https://github.com/asajeffrey/mozjs.git?branch=smup)" = "<none>"
+"checksum mozjs_sys 0.60.0 (registry+https://github.com/rust-lang/crates.io-index)" = "10042595a89595789dbfb5a9a55004c9ba467dc3b03990efeeceaac306669674"
 "checksum mp3-metadata 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "4ab5f1d2693586420208d1200ce5a51cd44726f055b635176188137aff42c7de"
 "checksum mp4parse 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)" = "7316728464443fe5793a805dde3257864e9690cf46374daff3ce93de1df2f254"
 "checksum msdos_time 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "aad9dfe950c057b1bfe9c1f2aa51583a8468ef2a5baba2ebbe06d775efeb7729"
