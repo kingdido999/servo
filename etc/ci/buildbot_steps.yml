@@ -222,9 +222,11 @@ arm32:
   CXX: /usr/bin/clang++-4.0
   CXXFLAGS: --target=arm-unknown-linux-gnueabihf -march=armv7a -I/usr/arm-linux-gnueabihf/include/ -I/usr/arm-linux-gnueabihf/include/c++/4.8.4/arm-linux-gnueabihf -fuse-ld=/home/servo/servo/support/arm32/fake-ld.sh -Wno-error=unused-command-line-argument
   HOST_CC: gcc-5
-  HOST_CFLAGS: --target=x86_64-unknown-linux-gnu # test-tidy doesn't like empty strings
+  # test-tidy doesn't like empty strings
+  HOST_CFLAGS: --target=x86_64-unknown-linux-gnu
   HOST_CXX: g++-5
-  HOST_CXXFLAGS: --target=x86_64-unknown-linux-gnu # test-tidy doesn't like empty strings
+  # test-tidy doesn't like empty strings
+  HOST_CXXFLAGS: --target=x86_64-unknown-linux-gnu
   LD: /usr/bin/arm-linux-gnueabihf-ld
   OBJCOPY: /usr/bin/arm-linux-gnueabihf-objcopy
   OBJDUMP: /usr/bin/arm-linux-gnueabihf-objdump
